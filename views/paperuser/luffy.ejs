@@ -18,6 +18,9 @@
         </audio>
   </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a href="/view-cart/<%- listdata._id%>" class="nav-link" class="btn btn-info btn-lg">
+                <span class="glyphicon glyphicon-shopping-cart" ></span> Giỏ hàng<strong id="quantityCart" style="color: red;">  <%- listdata.cart.length %> </strong>
+              </a>
       <a class="navbar-brand" href="/" style="margin-left: 140px; ">Trang Chủ</a> 
       <img src="/upload/logo.png"style=“ width="5%" height:300px; pa/>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
